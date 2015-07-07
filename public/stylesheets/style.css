@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/*列表格式*/
+table
+{
+  border-collapse:collapse;
+}
+
+th, td
+{
+  border: 1px solid skyblue;
+  text-align: center;
+}
+th{
+  background-color: steelblue;
+  height: 35px;
+  width: 135px;
+  border-top: none;
+  font-size: 16px;
+}
+td{
+  height: 30px;
+  width: 135px;
+  font-size: 14px;
+}

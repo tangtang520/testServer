@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body onunload="alert('啊哈哈')">
+<h1>录入信息</h1>
+<input id="name" type="text" placeholder="捐款人">
+<input id="money" type="text" placeholder="捐款金额 单位元" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+<input id="file" type="file">
+<input type="button" value="提交" onclick="saveInfo()">
+<a href="/page?command=payInfo&&type=cms">dakai </a>
+<!--<input type="button" value="惦记我" onclick="alert()">-->
+<input type="button" value="惦记我" onclick="alert(event.type)">
+<input type="button" value="真的啊" onclick="alert(this.value)">
+<script type="text/javascript" src="../public/javascripts/public/jquery-2.0.2.min.js"></script>
+<!--<script type="text/javascript" src="../public/javascripts/public/vendor/jquery.ui.widget.js"></script>-->
+<!--<script type="text/javascript" src="../public/javascripts/public/js/jquery.iframe-transport.js"></script>-->
+<!--<script type="text/javascript" src="../public/javascripts/public/js/jquery.fileupload.js"></script>-->
+<script type="text/javascript" src="../public/javascripts/js/saveInfo.js"></script>
+</body>
+</html>
