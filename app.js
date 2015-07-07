@@ -13,7 +13,7 @@ var app = express();
 var config = {
   token: 'tangtang',
   appid: 'wx78a6a6ceff29e2e3',
-  encodingAESKey: 'efae563442df1d7504efd14827b510b6'
+  encodingAESKey: 'c7vMTp8uwJ0asRwcfi2RsDv4sV962HvaodqemIKWSJR'
 };
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
