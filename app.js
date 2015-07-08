@@ -12,8 +12,8 @@ var app = express();
 //设置配置信息
 var config = {
   token: 'tangtang',
-  appid: 'wx78a6a6ceff29e2e3',
-  encodingAESKey: 'c7vMTp8uwJ0asRwcfi2RsDv4sV962HvaodqemIKWSJR'
+  appid: 'wx2a3767e2a57da7cb',
+  encodingAESKey: 'OimfqptLlySopHv42yMDWm7zKKdYoqVd4mi1P3r3ujD'
 };
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
